@@ -1,0 +1,119 @@
+---
+title: "maRio: An Alternative to Shiny"
+subtitle: "MORS Symposium - 2020"
+author: "Ian Kloo"
+date: "June 2020"
+output:
+  xaringan::moon_reader:
+    css: ["default"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(warning=FALSE, message=FALSE)
+```
+
+## How Shiny Works (and why it's great)
+
+<center>
+  <img src = "shiny_method.jpg">
+</center>
+
+- Only have to write R code to create an app
+
+    - Gets to a prototype quickly
+
+    - Works great for solo developers
+    
+    - No need to learn a front-end language/framework
+
+---
+
+## Why do we need an alternative to Shiny?
+
+- The same things that make Shiny great limit usefulness
+
+    - Shiny is opinionated --> hard to customize look and functionality
+    
+    - R experience required, Shiny experience even more niche
+    
+    - Collaboration is limited
+    
+- Shiny is great for apps that:
+
+    - Don't need significant customization (i.e., "take the defaults" approach is fine)
+    
+    - Are developed by a single analyst...
+    
+    - ...with R experience (Shiny experience preferred)
+    
+---
+
+## maRio: an alternative framework
+
+<center>
+  <img src = "mario_method.jpg">
+</center>
+
+- Back-end: R
+
+- Front-end: pick from anything!
+
+
+---
+
+## maRio: Benefits over Shiny
+
+- Develop the font- and back-ends independently
+
+    - Separate your team based on skillsets
+    
+    - Speed development
+    
+- Flexibility
+
+    - Use whatever front-end you want
+    
+    - Redevelop the front- and back-ends independently for continuous improvement
+    
+    - Get beyond prototypes
+    
+    - <strong>Be creative!</strong>
+    
+- Provide an API with every app
+
+    - With an independent back-end, you will be able to easily provide an API along with your app
+    
+    - App for standard users, API for other developers/analysts
+    
+
+---
+
+## maRio: ...but what is it actually?
+
+"Frameworks" are nebulous...here's where we might go with this:
+
+1. R package with functions to:
+
+    - &#10004; Setup project structure
+    
+    - &#10004; Run development servers for front- and back-end simultaneously
+    
+    - Create deployment scripts (docker files, nginx configurations, etc.)
+
+2. Documentation explaining development and deployment options
+
+3. Repository of example projects
+
+<br><br>
+<center><strong>The goal is not to create a "one-app" solution like Shiny</strong></center>
+
+---
+
+## Demo and Questions
+
+
+
