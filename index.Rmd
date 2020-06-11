@@ -19,7 +19,7 @@ knitr::opts_chunk$set(warning=FALSE, message=FALSE)
 ## How Shiny Works (and why it's great)
 
 <center>
-  <img src = "shiny_method.jpg">
+  <img src = "www/shiny_method.jpg">
 </center>
 
 - Only have to write R code to create an app
@@ -55,7 +55,7 @@ knitr::opts_chunk$set(warning=FALSE, message=FALSE)
 ## maRio: an alternative framework
 
 <center>
-  <img src = "mario_method.jpg">
+  <img src = "www/mario_method.jpg">
 </center>
 
 - Back-end: R
